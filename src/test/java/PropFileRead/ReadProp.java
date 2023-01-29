@@ -33,6 +33,8 @@ public class ReadProp {
 			e.printStackTrace();
 		}
 		
+
+//		System.out.println(prop.getProperty("UserLastName"));
 //		System.out.println(prop.getProperty("url"));
 //		System.out.println(prop.getProperty("browser"));
 //		System.out.println(prop.getProperty("headless"));

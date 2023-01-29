@@ -1,0 +1,25 @@
+1. Go to -> https://git-scm.com/
+Download and install
+2. Create a github acconut and create a repo
+3. Right click on dextop and user below commands
+git config --global user.name "yourUserName"
+git config --global user.email "yourUserEmailId"
+4. go inside the project into your locale machine
+(root folder)
+5. Right click inside root folder of project select
+"Git Bash Here"
+6. Type -> 
+git init (First Time Only)
+git remote add origin https://www.github.com/YourAccName/repoName.git (First Time Only)
+git status
+git add .
+git commit -m "Your Messages"
+git push -u origin master (First Time Only)
+An auth popup will appear and click on sigin in with browser,
+sigin in authenticate and done the code will get pushed.
+
+Second Time if you added few files in Project
+git status
+git add .
+git commit -m "your new commit message"
+git push
